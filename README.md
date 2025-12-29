@@ -8,7 +8,6 @@ Criei esta aplicação com o intuito de utilizar a foto no meu README de perfil 
 
 - Centralização de elementos com **Flexbox**.
 - Criação de efeitos de profundidade com `box-shadow`.
-- Estruturação semântica simples com HTML.
 
 ## 🛠️ Tecnologias
 
@@ -28,6 +27,4 @@ Para alterar a foto ou a legenda, edite o arquivo `index.html`. A imagem deve se
 
 **Dany Jonathan Bueno**
 
-1. Baixe o repositório.
-2. Abra o arquivo `index.html` no seu navegador.
 # polaroid-readme

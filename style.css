@@ -1,0 +1,36 @@
+body {
+  display: flex; /* Define o layout como flexbox para facilitar o alinhamento */
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+  height: 100vh; /* Define a altura do corpo como 100% da altura da janela de visualização */
+  font-family: Arial, Helvetica, sans-serif; /* Define a família da fonte padrão */
+}
+
+/* Estrutura da polaroide */
+.polaroid {
+  background-color: #f8f4ea; /* Define a cor de fundo da polaroid (bege claro) */
+  padding: 16px 16px 28px 16px; /* Define o espaçamento interno: topo, direita, baixo (maior), esquerda */
+  width: 260px; /* Define a largura fixa do cartão */
+  box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.85); /* Cria uma sombra sólida deslocada para dar profundidade */
+}
+
+/* Área da imagem */
+.foto {
+  background-color: #dcdcdc; /* Cor de fundo cinza atrás da imagem (borda interna) */
+  padding: 6px; /* Espaçamento entre a borda cinza e a imagem */
+}
+
+.foto img {
+  width: 100%; /* Faz a imagem ocupar toda a largura disponível do container pai */
+  display: block; /* Remove o espaçamento padrão inferior de elementos inline */
+}
+
+/* Texto inferior */
+.legenda {
+  display: flex; /* Habilita flexbox para alinhar os itens da legenda */
+  justify-content: space-between; /* Separa os itens (nome e ano) nas extremidades opostas */
+  margin-top: 14px; /* Adiciona espaço acima da legenda */
+  font-weight: bold; /* Deixa o texto em negrito */
+  font-size: 16px; /* Define o tamanho da fonte */
+  color: #000; /* Define a cor do texto como preto */
+}
