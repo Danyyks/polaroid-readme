@@ -16,7 +16,7 @@ Criei esta aplicação com o intuito de utilizar a foto no meu README de perfil 
 
 ## 🚀 Como usar
 
-1. Clone o repositório.
+1. Clone o polaroid-readme.
 2. Abra o arquivo `index.html` no seu navegador de preferência.
 
 ## 🎨 Personalização
